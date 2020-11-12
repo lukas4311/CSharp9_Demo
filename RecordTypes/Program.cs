@@ -14,14 +14,16 @@ namespace RecordTypes
             Console.WriteLine(user.Equals(user2));
             Console.WriteLine($"Jméno: {firstName} {lastName}");
 
-            // I think its right but compiler raising error
-            //User user3 = user with { FirstName = "Paul" };
-            //Console.WriteLine($"Jméno: {user3.FirstName} {user3.LastName}");
+            // Records are immutable
+            //user2.FirstName = "Jmeno";
 
             Person person = new Person("Jmeno", "Prijmeni");
             var (personFirstName, personLastName) = person;
 
+            Person person2 = person with { LastName = "Test" };
+
             Console.WriteLine($"Jméno: {personFirstName} {personLastName}");
+            Console.WriteLine($"Jméno: {person2.FirstName} {person2.LastName}");
         }
     }
 }
