@@ -13,6 +13,10 @@ namespace RecordTypes
 
             Console.WriteLine(user.Equals(user2));
             Console.WriteLine($"Jméno: {firstName} {lastName}");
+
+            // I think its right but compiler raising error
+            //User user3 = user with { FirstName = "Paul" };
+            //Console.WriteLine($"Jméno: {user3.FirstName} {user3.LastName}");
         }
     }
 }
