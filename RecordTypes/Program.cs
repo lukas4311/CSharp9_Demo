@@ -17,6 +17,11 @@ namespace RecordTypes
             // I think its right but compiler raising error
             //User user3 = user with { FirstName = "Paul" };
             //Console.WriteLine($"Jméno: {user3.FirstName} {user3.LastName}");
+
+            Person person = new Person("Jmeno", "Prijmeni");
+            var (personFirstName, personLastName) = person;
+
+            Console.WriteLine($"Jméno: {personFirstName} {personLastName}");
         }
     }
 }
