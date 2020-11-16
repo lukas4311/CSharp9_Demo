@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaDiscardParameters", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypePatterns", "TypePatterns\TypePatterns.csproj", "{460A7B42-F288-4BBA-8196-AC9B855DA3D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetTypedConditionalExpressions", "TargetTypedConditionalExpressions\TargetTypedConditionalExpressions.csproj", "{C9759C11-1084-485E-A266-8B1D0C808220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{460A7B42-F288-4BBA-8196-AC9B855DA3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460A7B42-F288-4BBA-8196-AC9B855DA3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460A7B42-F288-4BBA-8196-AC9B855DA3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9759C11-1084-485E-A266-8B1D0C808220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9759C11-1084-485E-A266-8B1D0C808220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9759C11-1084-485E-A266-8B1D0C808220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9759C11-1084-485E-A266-8B1D0C808220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
